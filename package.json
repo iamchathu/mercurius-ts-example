@@ -1,0 +1,30 @@
+{
+  "name": "mercurius-ts-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json"
+  },
+  "keywords": [],
+  "author": "Chathu Vishwajith",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "fastify": "^4.24.3",
+    "graphql": "^16.8.1",
+    "mercurius": "^13.2.2"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2",
+    "nx": "17.0.3"
+  },
+  "engines": {
+    "node": ">=20",
+    "pnpm": ">=8"
+  },
+  "volta": {
+    "node": "20.9.0"
+  }
+}
